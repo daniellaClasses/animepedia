@@ -1,0 +1,165 @@
+.detailsMain{
+    display: flex;
+    width: 96%;
+    margin-top: 20px;
+    margin-left: 50px;
+
+
+    flex-wrap: wrap;
+    /* border: solid red 1px; */
+    box-sizing: border-box;
+}
+
+.detailsAside{
+    width: 20%;
+    box-sizing: border-box;
+}
+.detailsInfo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: fit-content;
+    /* border: solid blue 1px; */
+    box-sizing: border-box;
+
+}
+
+.detailsTitle {
+    width: 80%;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(53, 55, 123);
+    text-decoration: underline;
+}
+.mangaStatus {
+    padding: 0.5em 2em;
+    width: 20%;
+    height: fit-content;
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    /* box-shadow: 2px 2px 4px rgb(53, 55, 123), -2px -2px 4px rgb(53, 55, 123); */
+
+    border-radius: 15px;
+    border: solid 8px rgb(28, 27, 27);
+    background-color: rgb(53, 55, 123);
+    box-sizing: border-box;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    color: whitesmoke;
+}
+.detailsDescription{
+    width: 100%;
+    padding: 1em;
+    text-align: justify;
+    color: whitesmoke;
+    font-weight: 200%;
+    line-height: 2em;
+
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    /* box-shadow: 2px 2px 4px rgb(53, 55, 123), -2px -2px 4px rgb(53, 55, 123); */
+
+    border-radius: 15px;
+    border: solid 8px rgb(28, 27, 27);
+    background-color: rgb(53, 55, 123);
+    
+
+}
+
+/* --------------------------------------------- Detalles imagen ----------------------------------------------------- */
+.detailImage{
+
+    width: 244px;
+    height: 324px;
+
+
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+
+    border-radius: 15px;
+    border: solid rgb(28, 27, 27) 4px;
+
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+}
+
+.detailsError {
+    text-align: center;
+    color: rgb(53, 55, 123);
+}
+
+.genresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.genresTitle {
+    width: 100%;
+    color: rgb(53, 55, 123);
+    margin: 0;
+    text-decoration: underline 4px rgb(53, 55, 123);
+    margin-left: 2px;
+    padding: 0%;
+}
+.detailsGenre{
+    background-color: rgb(53, 55, 123);
+    /* background-color: rgb(53, 55, 123); */
+    padding: 0.2em 2em;
+
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    border-radius: 10px;
+    border: solid rgb(28, 27, 27) 4px;
+
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+
+.picturesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.picturesTitle {
+    width: 100%;
+    color: whitesmoke;
+    margin: 0;
+    font-size: 2em;
+    text-decoration: underline 4px rgb(53, 55, 123);
+    margin-left: 2px;
+    padding: 0%;
+    text-align: center;
+
+    background-color: rgb(53, 55, 123);
+    /* background-color: rgb(53, 55, 123); */
+    padding: 0.2em 2em;
+
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    border-radius: 10px;
+    border: solid rgb(28, 27, 27) 4px;
+}
+
+.picture{
+    width: 314px;
+    height: 450px;
+    box-shadow: 2px 2px 4px black, -2px -2px 4px black;
+    border-radius: 10px;
+    border: solid rgb(28, 27, 27) 4px;
+    text-align: center;
+    margin-left: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}

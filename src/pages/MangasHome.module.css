@@ -1,0 +1,28 @@
+.mangasMain{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    /* flex-wrap: wrap; */
+
+}
+
+.mangaGrid{
+    width: 1000px;
+    height: fit-content;
+    flex-grow: 80%;
+}
+
+.genresNav {
+    width: 20%;
+}
+.paginationSection{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    width: 82.2%;
+}
+
+.detailsError {
+    text-align: center;
+    color: rgb(53, 55, 123);
+}

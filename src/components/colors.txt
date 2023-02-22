@@ -1,0 +1,7 @@
+rgb(53, 55, 123) general
+
+whitesmoke letra
+
+rgb(28, 27, 27) background
+
+black bordes

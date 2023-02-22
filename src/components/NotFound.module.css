@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(53, 55, 123);
+}
+
+.errorBox{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

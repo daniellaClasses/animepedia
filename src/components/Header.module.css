@@ -1,0 +1,148 @@
+.headerContainer {
+    box-sizing: border-box;
+    display: flex;
+    width: 99%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+    /* border: solid red 2px; */
+    
+}
+
+.logoHeader {
+    height: 100%;
+    min-width: 150px;
+    background-color: rgb(53, 55, 123);
+    /* border: solid purple 2px; */
+    border-radius: 15px;
+    /* box-shadow: 2px 2px 4px black, -2px -2px 4px black; */
+    border: solid rgb(28, 27, 27) 4px;
+    background-image: url("../animepedia_logo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headerNav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /* flex-grow: 100vw; */
+    width: 86.5vw;
+    margin-right: 20px;
+
+    background: linear-gradient(
+        to bottom, 
+        transparent 48% ,
+         rgb(53, 55, 123) 65% 70%, 
+         transparent 66% 100%
+    );
+
+
+    background-position: 20px;
+
+}
+
+
+/* ------------------------ - -LINKS NAV- - ------------------------------------------------- */
+
+.headerLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.headerLinks>li {
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight:bolder;
+    margin-right: 25px;
+}
+
+.headerLinks a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* ---------------- - -ICONOS MENU- - ------------------------------------------------ */
+.headerActions {
+    display: flex;
+    gap: 10px;
+    /* justify-content: end; */
+    align-items: center;
+    /* margin-right: 50px; */
+}
+
+.headerActions>.actionButton{
+    border: solid rgb(183, 183, 183) 6px;
+    box-shadow: inset 1px 1px 1px rgb(27, 26, 26),inset -1px -1px 1px rgb(27, 26, 26);
+    border-radius: 50%;
+    background-color: rgb(53, 55, 123);
+    width: 50px;
+    height: 50px;
+    transition: all ease-in-out 0.15s;
+}
+
+.userIcon{
+    min-width: 80px;
+    min-height: 80px;
+    border: solid rgb(27, 26, 26) 6px;
+    margin-right: -10px;
+}
+.iconSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    color: rgb(183, 183, 183);
+    /* font-weight: 500%; */
+    font-size: 1.5em;
+    transition: all ease-in-out 0.18s;
+}
+
+.iconFav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    color: rgb(183, 183, 183);
+    /* font-weight: 500%; */
+    font-size: 1.5em;
+    transition: all ease-in-out 0.18s;
+}
+
+.iconUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    color: rgb(183, 183, 183);
+    /* font-weight: 500%; */
+    font-size: 3em;
+    transition: all ease-in-out 0.18s;
+}
+
+.iconFav:hover{
+    color: rgb(246, 25, 25);
+    transition: all ease-in-out 0.1s;
+}
+
+.iconUser:hover{
+    color: rgb(43, 226, 177);
+}
+
+.headerActions>.actionButton:hover {
+    transform: scale(120%);
+    color: white;
+    border-color: whitesmoke;
+}
+
+.headerActions>.actionButton:hover .iconSearch {
+    color: white;
+}
